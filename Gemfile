@@ -19,12 +19,8 @@ gem 'bcrypt-ruby', '3.1.2'
 gem 'font-awesome-rails'
 gem 'bootstrap-wysihtml5-rails', github: 'asithade/bootstrap-wysihtml5-rails'
 gem 'remotipart', '~> 1.2'
-gem 'imgurruby', :git => 'https://github.com/asithade/imgur-ruby'
+gem 'imgurruby', git: 'https://github.com/asithade/imgur-ruby'
 gem 'devise'
-gem 'omniauth'
-gem 'omniauth-twitter'
-gem 'omniauth-facebook'
-gem 'omniauth-linkedin'
 gem 'unicorn'
 gem 'newrelic_rpm'
 gem 'cancan'
@@ -33,7 +29,7 @@ gem 'mail_form'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
 gem 'jquery-rails', '3.1.0'
-gem 'turbolinks', '1.1.1'
+gem 'turbolinks'
 
 group :development, :test do
   gem 'sqlite3'
@@ -49,7 +45,7 @@ group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
   gem 'factory_girl_rails', '4.2.1'
-  gem 'cucumber-rails', '1.4.0', :require => false
+  gem 'cucumber-rails', '1.4.0', require: false
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
   gem 'simplecov', '~> 0.7.1'
 end
