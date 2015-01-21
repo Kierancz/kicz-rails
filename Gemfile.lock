@@ -222,9 +222,6 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-    turbo-sprockets-rails3 (0.2.9)
-      railties (>= 3.1.0)
-      sprockets (>= 2.0.0)
     turbolinks (1.1.1)
       coffee-rails
     tzinfo (0.3.41)
@@ -276,7 +273,6 @@ DEPENDENCIES
   sprockets (= 2.11.0)
   sqlite3
   thin
-  turbo-sprockets-rails3
   turbolinks
   uglifier (= 2.1.1)
   unicorn
