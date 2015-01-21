@@ -28,9 +28,9 @@ gem 'coffee-rails', '4.0.1'
 gem 'jquery-rails', '3.1.0'
 gem 'turbolinks'
 gem 'fotoramajs'
-gem 'jquery-rails-cdn'
-gem 'ckeditor'
-gem 'turbo-sprockets-rails3'
+#gem 'jquery-rails-cdn'
+#gem 'ckeditor'
+#gem 'turbo-sprockets-rails3'
 
 group :development, :test do
   gem 'sqlite3'
