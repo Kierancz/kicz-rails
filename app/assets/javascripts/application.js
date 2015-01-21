@@ -16,4 +16,3 @@
 //= require bootstrap-wysihtml5/locales
 //= require_tree .
 //= require fotorama
-//= require ckeditor/init

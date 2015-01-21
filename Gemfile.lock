@@ -1,21 +1,8 @@
 GIT
-  remote: git://github.com/asithade/bootstrap-wysihtml5-rails.git
-  revision: b49063722e10e62927b8af25788be642cc1d6ae8
-  specs:
-    bootstrap-wysihtml5-rails (0.3.1.23)
-      railties (>= 3.0)
-
-GIT
   remote: git://github.com/bmabey/database_cleaner.git
   revision: 84cabcaa4f8b4682cea1bf4cd1cb137f9eaececc
   specs:
     database_cleaner (1.3.0)
-
-GIT
-  remote: https://github.com/asithade/imgur-ruby
-  revision: 829fea2e307e4140867913720057e5767ddf0cc2
-  specs:
-    imgurruby (1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -45,7 +32,6 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     arel (4.0.2)
-    bcrypt (3.1.7)
     bcrypt-ruby (3.1.2)
     bootstrap-sass (3.1.1.1)
       sass (~> 3.2)
@@ -85,13 +71,6 @@ GEM
       nokogiri (>= 1.5.0)
       rails (>= 3.0.0)
     daemons (1.1.9)
-    devise (3.4.0)
-      bcrypt (~> 3.0)
-      orm_adapter (~> 0.1)
-      railties (>= 3.2.6, < 5)
-      responders
-      thread_safe (~> 0.1)
-      warden (~> 1.2.3)
     diff-lcs (1.2.5)
     erubis (2.7.0)
     eventmachine (1.0.3)
@@ -177,8 +156,6 @@ GEM
     rdoc (4.1.2)
       json (~> 1.4)
     remotipart (1.2.1)
-    responders (1.1.1)
-      railties (>= 3.2, < 4.2)
     rspec (2.13.0)
       rspec-core (~> 2.13.0)
       rspec-expectations (~> 2.13.0)
@@ -245,6 +222,9 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
+    turbo-sprockets-rails3 (0.2.9)
+      railties (>= 3.1.0)
+      sprockets (>= 2.0.0)
     turbolinks (1.1.1)
       coffee-rails
     tzinfo (0.3.41)
@@ -255,8 +235,6 @@ GEM
       kgio (~> 2.6)
       rack
       raindrops (~> 0.7)
-    warden (1.2.3)
-      rack (>= 1.0)
     websocket (1.0.7)
     xpath (2.0.0)
       nokogiri (~> 1.3)
@@ -268,18 +246,15 @@ DEPENDENCIES
   activerecord
   bcrypt-ruby (= 3.1.2)
   bootstrap-sass (~> 3.1.1)
-  bootstrap-wysihtml5-rails!
   cancan
   capybara (= 2.1.0)
   ckeditor
   coffee-rails (= 4.0.1)
   cucumber-rails (= 1.4.0)
   database_cleaner!
-  devise
   factory_girl_rails (= 4.2.1)
   font-awesome-rails
   fotoramajs
-  imgurruby!
   jbuilder (~> 1.2)
   jquery-rails (= 3.1.0)
   jquery-rails-cdn
@@ -301,6 +276,7 @@ DEPENDENCIES
   sprockets (= 2.11.0)
   sqlite3
   thin
+  turbo-sprockets-rails3
   turbolinks
   uglifier (= 2.1.1)
   unicorn
