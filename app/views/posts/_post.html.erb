@@ -1,0 +1,12 @@
+		<%= link_to posts_path do %>
+ 	<span class="glyphicon glyphicon-chevron-left"></span> Back
+ 	<% end %> |
+	<%= link_to edit_post_path(post) do %>
+ 	<span class="glyphicon glyphicon-edit"></span> Edit
+ 	<% end %> |
+	<%= link_to post, method: :delete, data: { confirm: 'Are you sure?' }  do %>
+	  <span class="glyphicon glyphicon-trash"></span> Delete
+	<% end %>
+
+ <h1><%= link_to_unless_current @post.title, @post %></h1>
+ <%= simple_format @post.body.try(:html_safe) %>

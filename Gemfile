@@ -30,13 +30,15 @@ gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
 gem 'jquery-rails', '3.1.0'
 gem 'turbolinks'
+gem 'fotoramajs'
+gem 'jquery-rails-cdn'
+gem 'ckeditor'
 
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
   gem 'mailcatcher'
   gem 'thin'
-  gem 'debugger'
 end
 
 group :test do

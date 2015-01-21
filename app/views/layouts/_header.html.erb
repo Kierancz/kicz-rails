@@ -4,10 +4,18 @@
         <%= link_to "Kieran.cz", root_path, id: "logo" %>
         <nav>
           <ul class="nav pull-right navbar-nav">
-            <li><%= link_to "Photography", photography_path %></li>
-            <li><%= link_to "Projects", projects_path %></li>
-            <li><%= link_to "About", about_path %></li>
-            <li><%= link_to "Contact", contact_path %></li>
+            <li><%= link_to photography_path do %>
+              <span class="glyphicon glyphicon-camera"></span> Photography
+              <% end %>
+            </li>
+            <li><%= link_to projects_path do %>
+              <span class="glyphicon glyphicon-wrench"></span> Projects
+              <% end %>
+            </li> 
+            <li><%= link_to posts_path do %>
+              <span class="glyphicon glyphicon-pencil"></span> Blog
+              <% end %>
+            </li>               
           </ul>
         </nav>
       </div>

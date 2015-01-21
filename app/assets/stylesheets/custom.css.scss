@@ -34,13 +34,27 @@ section {
 
 body { 
   padding-top: 80px; 
-  background-image: url("http://i.imgur.com/tihm4zh.jpg");
+  background: url("http://i.imgur.com/tihm4zh.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 textarea {
   resize: vertical;
+}
+
+.panel-transparent {
+  background: none;
+}
+
+.panel-transparent .panel-heading{
+  background: rgba(255, 255, 255, 0.85)!important;
+}
+
+.panel-transparent .panel-body{
+  background: rgba(255, 255, 255, 0.85)!important;
 }
 
 .center {
@@ -101,11 +115,11 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $gray-light;
-  color: $gray-light;
+  color: black;
   a {
-    color: $gray;
+    color: black;
     &:hover {
-      color: $gray-darker;
+      color: $gray-light;
     }
   }
   small {
@@ -202,20 +216,6 @@ input {
     text-align: left;
  }
 
- /* Users index */
-
-.users {
-  list-style: none;
-  margin: 0;
-  li {
-    overflow: auto;
-    padding: 10px 0;
-    border-top: 1px solid $gray-light;
-    &:last-child {
-      border-bottom: 1px solid $gray-light;
-    }
-  }
-}
 
 /* miscellaneous */
 
