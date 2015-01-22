@@ -1,8 +1,6 @@
 KieranCz::Application.routes.draw do
   mount Ckeditor::Engine => '/ckeditor'
-  resources :posts do 
-    resources :comments, only: [:create]
-  end
+  resources :posts
 
   root 'pages#home'
   match '/about',                       to: 'pages#about',              via: 'get'
