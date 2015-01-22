@@ -3,7 +3,11 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #headerlink {
-  margin-bottom: 0; 
-  border-top: 1px;
 	position:absolute;
+}
+
+.smalltext {
+  font-size: 0.8em;
+  line-height: 0;
+  color: #999;
 }

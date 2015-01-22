@@ -8,7 +8,9 @@
                 <% @posts.each do |post| %>
                   <%= link_to(post, class: "list-group-item") do %>
                     <h4 class="list-group-item-heading">
-                      <%= post.title %>        
+                      <%= post.title %>
+                      <small><div class="smalltext" style="position: absolute; top: 8px; right: 10px; width: 200px; text-align:right"><p><span class="glyphicon glyphicon-time"></span> <%= time_ago_in_words(post.created_at.to_time) unless post.created_at.blank? %> ago 
+                      </div></small>
                     </h4>
                     <p class="list-group-item-text"><%= post.description %>
                     </p>

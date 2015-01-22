@@ -1,4 +1,5 @@
-		<%= link_to posts_path do %>
+<div style="position: absolute; top: 10px; left: 26px; width: 200px; text-align:left">
+<%= link_to posts_path do %>
  	<span class="glyphicon glyphicon-chevron-left"></span> Back
  	<% end %> |
 	<%= link_to edit_post_path(post) do %>
@@ -7,6 +8,8 @@
 	<%= link_to post, method: :delete, data: { confirm: 'Are you sure?' }  do %>
 	  <span class="glyphicon glyphicon-trash"></span> Delete
 	<% end %>
+</div>
 
- <h1><%= link_to_unless_current @post.title, @post %></h1>
- <%= simple_format @post.body.try(:html_safe) %>
+	<hr>
+	<h1><%= link_to_unless_current @post.title, @post %></h1>
+	<%= simple_format @post.body.try(:html_safe) %>
