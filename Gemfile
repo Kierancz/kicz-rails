@@ -30,6 +30,7 @@ gem 'turbolinks'
 gem 'fotoramajs'
 gem 'jquery-rails-cdn'
 gem 'ckeditor'
+gem 'paperclip'
 
 group :development, :test do
   gem 'sqlite3'

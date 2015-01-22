@@ -1,4 +1,5 @@
 KieranCz::Application.routes.draw do
+  mount Ckeditor::Engine => '/ckeditor'
   resources :posts do 
     resources :comments, only: [:create]
   end
