@@ -21,7 +21,6 @@ module KieranCz
     # config.i18n.default_locale = :de
 
     config.assets.precompile += ['jquery.js']
-    config.assets.precompile += Ckeditor.assets
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
   end
 end
