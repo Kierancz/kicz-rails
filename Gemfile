@@ -29,8 +29,9 @@ gem 'jquery-rails', '3.1.0'
 gem 'turbolinks'
 gem 'fotoramajs'
 gem 'jquery-rails-cdn'
-gem 'ckeditor'
+gem 'ckeditor', github: 'galetahub/ckeditor'
 gem 'paperclip'
+gem 'non-stupid-digest-assets' #for ckeditor to work
 
 group :development, :test do
   gem 'sqlite3'
