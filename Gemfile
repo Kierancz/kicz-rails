@@ -31,7 +31,8 @@ gem 'fotoramajs'
 gem 'jquery-rails-cdn'
 gem 'ckeditor', github: 'galetahub/ckeditor'
 gem 'paperclip'
-gem 'non-stupid-digest-assets' #for ckeditor to work
+#gem 'non-stupid-digest-assets' #for ckeditor to work
+gem 'ionicons-rails'
 
 group :development, :test do
   gem 'sqlite3'

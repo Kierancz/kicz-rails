@@ -1,3 +1,4 @@
+
 <div style="position: absolute; top: 10px; left: 26px; width: 200px; text-align:left">
 <%= link_to posts_path do %>
  	<span class="glyphicon glyphicon-chevron-left"></span> Back
@@ -11,5 +12,5 @@
 </div>
 
 	<hr>
-	<h1><%= link_to_unless_current @post.title, @post %></h1>
+	<h1><%= @post.title %></h1>
 	<%= simple_format @post.body.try(:html_safe) %>

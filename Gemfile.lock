@@ -96,6 +96,7 @@ GEM
       tilt
     hike (1.2.3)
     i18n (0.6.11)
+    ionicons-rails (2.0.0)
     jbuilder (1.5.3)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2.0)
@@ -130,7 +131,6 @@ GEM
     newrelic_rpm (3.9.5.251)
     nokogiri (1.6.3.1)
       mini_portile (= 0.6.0)
-    non-stupid-digest-assets (1.0.4)
     orm_adapter (0.5.0)
     paperclip (4.2.1)
       activemodel (>= 3.0.0)
@@ -263,13 +263,13 @@ DEPENDENCIES
   factory_girl_rails (= 4.2.1)
   font-awesome-rails
   fotoramajs
+  ionicons-rails
   jbuilder (~> 1.2)
   jquery-rails (= 3.1.0)
   jquery-rails-cdn
   mail_form
   mailcatcher
   newrelic_rpm
-  non-stupid-digest-assets
   paperclip
   pg
   rails (= 4.0.4)

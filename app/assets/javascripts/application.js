@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap
-//= require_tree .
 //= require fotorama
 //= require ckeditor/init
+//= require_tree .
+//= require_tree ./theme

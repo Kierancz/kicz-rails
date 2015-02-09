@@ -33,8 +33,7 @@ section {
 }
 
 body { 
-  padding-top: 80px; 
-  background: url("http://i.imgur.com/tihm4zh.jpg") no-repeat center center fixed;
+  background: url("http://i.imgur.com/aEnbq0Y.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -50,6 +49,7 @@ textarea {
 }
 
 .panel-transparent .panel-heading{
+  padding-top: 100px;
   background: rgba(255, 255, 255, 0.85)!important;
 }
 
@@ -218,6 +218,15 @@ input {
 
 
 /* miscellaneous */
+#image
+{
+  position: relative;
+  top: -100px;
+  max-height: 600px;
+  background: #1D1D25;
+  opacity: 0.95;
+  width: 100%;
+}
 
 .debug_dump {
   clear: both;

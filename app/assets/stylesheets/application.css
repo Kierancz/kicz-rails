@@ -10,7 +10,9 @@
  *
  *= require_self
  *= require bootstrap
- *= require_tree .
  *= require font-awesome
  *= require fotorama
+ *= require_tree .
+ *= require_tree ./theme
  */
+@import 'ionicons';
