@@ -33,6 +33,7 @@ gem 'ckeditor', github: 'galetahub/ckeditor'
 gem 'paperclip'
 #gem 'non-stupid-digest-assets' #for ckeditor to work
 gem 'ionicons-rails'
+gem 'sprockets_better_errors'
 
 group :development, :test do
   gem 'sqlite3'
