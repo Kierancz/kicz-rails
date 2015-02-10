@@ -16,5 +16,5 @@
 //= require bootstrap
 //= require fotorama
 //= require ckeditor/init
-//= require_tree .
 //= require_tree ./theme
+//= require_tree .
