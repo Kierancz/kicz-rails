@@ -4,7 +4,7 @@
         <h1>Blog Posts</h1><hr>
 
               <div class="list-group">
-                <% @posts.each do |post| %>
+                <% @posts.recent.each do |post| %>
                   <%= link_to(post, class: "list-group-item") do %>
                     <h4 class="list-group-item-heading">
                       <%= post.title %>

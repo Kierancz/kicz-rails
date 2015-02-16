@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery_scoped
 //= require turbolinks
 //= require bootstrap
 //= require fotorama

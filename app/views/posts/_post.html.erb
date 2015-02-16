@@ -13,4 +13,9 @@
 
 	<hr>
 	<h1><%= @post.title %></h1>
-	<%= simple_format @post.body.try(:html_safe) %>
+	<div class="my-container">
+		<style scoped>
+			@import "ckeditor/contents.css";
+		</style>
+		<%= @post.body.try(:html_safe) %>
+	</div>
