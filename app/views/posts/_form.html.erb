@@ -30,8 +30,20 @@
     <%= f.text_field :description, class: "form-control" %>
   </div>
   <div class="field">
+    <%= f.label :category %><br>
+    <%= f.text_field :category, class: "form-control" %>
+  </div>
+  <div class="field">
     <%= f.label :tag %><br>
     <%= f.text_field :tag, class: "form-control" %>
+  </div>
+  <div class="field">
+    <%= f.label :created_at %><br>
+    <%= f.text_field :created_at, class: "form-control" %>
+  </div>
+  <div class="field">
+    <%= f.label :updated_at %><br>
+    <%= f.text_field :updated_at, class: "form-control" %>
   </div>
   <div class="field" data-no-turbolink>
     <%= f.label :body %><br>
